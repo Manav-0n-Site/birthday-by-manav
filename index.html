@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birtday-wish-by-Manav🎉</title>
+    <link rel="stylesheet" href="index.css">
+     <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=Lato:300,400|PT+Sans:400,700" rel="stylesheet">
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+  <div class="wait-screen" id="waitScreen" >
+    <div class="background">
+ 
+     
+    </div>
+    <!-- Bubble background for small screens -->
+<div class="bubble-bg">
+ 
+</div>
+  <!-- 🎨 Vector Image Above Heading -->
+  <img src="https://cdn.pixabay.com/photo/2025/02/08/13/01/ai-generated-9392194_640.png" alt="Surprise Vector" class="wait-vector-img" data-aos="fade-down" data-aos-duration="1500" />
+
+  <!-- 🎁 Surprise Heading -->
+  <div class="wait-heading" data-aos="fade-up" data-aos-duration="1500">🎁 A surprise from(manav) is coming soon...</div>
+  <div class="countdown-box" id="liveCountdown"  >00h 00m 00s</div>
+</div>
+
+    <audio id="candleMusic" src="music/birtday song.mp3" preload="auto"></audio>
+
+
+  <!-- MAIN WEBSITE CONTENT -->
+  <div class="real-content" id="mainReveal" data-aos="zoom-in-down" data-aos-duration="1500">
+
+     <!-- 🎈 Birthday Banner -->
+    <div class="unique-banner-wrapper" id="uniqueBanner" data-aos="zoom-in-down" data-aos-duration="2500">
+    <canvas class="bg-bubbles-canvas"></canvas>
+    <canvas class="burst-confetti-canvas"></canvas>
+    <div class="unique-banner-text" >🎉 Happy Birthday Girl (Manav) 🎉</div>
+  </div>
+
+    <!-- Hero Section -->
+    <section class="hero" >
+      <div class="hero-content">
+        <div class="hero-text" >
+          <h1>
+            <span>Happy Birthday</span>
+            <span>Girl 🎂</span>
+          </h1>
+          <p>
+            happy happy birthday Girl 🎉🎂, may you always be happy 😊✨ aur hamesha muskurati raho 😄🌸! muskurati hui achi lagti ho 😍🌼..... ~Manav 💌🎁
+          </p>
+          <button class="btn" onclick="alert('kya miss niche scrool karo apko kya lag mai apke liye scrool lagunga nah🙃')">let's celebrate</button>
+        </div>
+        <img src="https://cdn.pixabay.com/photo/2022/03/02/02/48/birthday-7042329_640.png" alt="Construction Illustration" class="hero-image">
+      </div>
+
+      <!-- Deeper Wave Shape -->
+      <div class="wave">
+        <svg viewBox="0 0 1440 320" preserveAspectRatio="none">
+          <path class="shape-fill" d="M0,240 C240,120 480,360 720,240 C960,120 1200,360 1440,240 L1440,320 L0,320 Z"></path>
+        </svg>
+      </div>
+    </section>
+
+    <!-- Background Music -->
+
+
+
+    <!-- Cake Section -->
+    <div id="main-page-content"  data-aos="zoom-in-right" data-aos-duration="1500">
+      <section class="cake-section" id="cake-section">
+        <div class="container1">
+          <h2>Time to Make a Wish!</h2>
+          <div class="cake-image-placeholder">
+            <img src="https://cdn.pixabay.com/photo/2022/03/02/02/48/birthday-7042327_640.png" alt="Birthday Cake" class="cake-vector-img">
+            <img src="https://cdn.pixabay.com/photo/2014/04/03/00/31/cake-308576_640.png" alt="Celebration Decor" class="additional-vector-img">
+          </div>
+          <p class="cake-message">Blow out the candles, Girl🎉! May all your birthday wishes come true. 🎉</p>
+          <button class="btn blow-candle-btn" id="blowCandleBtn">Blow out the Candles!</button>
+          <div id="blessingQuote" class="blessing-quote"></div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Memories Book -->
+    <section class="memories-overview-section" id="memoriesOverviewSection">
+      <h1>Our Memories</h1>
+      <div class="memories-content-wrapper">
+        <div class="left-overview-area">
+          <img src="https://cdn.pixabay.com/photo/2023/03/25/15/04/camera-7876172_640.png" alt="Memories Illustration" class="overview-vector-img">
+        </div>
+
+        <div class="right-overview-area" id="rightInteractiveArea">
+          <div class="initial-vector" id="initialVector">
+            <img src="https://cdn.pixabay.com/photo/2024/12/23/17/40/ai-generated-9287092_640.png" alt="Open Book Illustration" class="overview-vector-img initial-book-vector">
+            <p>Click or Hover to Open Our Book of Memories!</p>
+          </div>
+          <div class="memory-book" id="memoryBook">
+            <div class="book-content">
+              <h3 id="bookPageTitle"></h3>
+              <p id="bookPageContent"></p>
+            </div>
+            <div class="book-navigation">
+              <button id="prevPageBtn">Previous Page</button>
+              <button id="nextPageBtn">Next Page</button>
+            </div>
+            <div class="page-animation-overlay" id="pageAnimationOverlay"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Goodbye Section -->
+    <div class="main-section-wrapper">
+      <h1 class="main-heading">It's Time to leave !</h1>
+      <div class="content-and-image-row">
+        <div class="left-visual">
+          <img src="https://cdn.pixabay.com/photo/2021/10/24/03/53/girl-6736885_640.png" alt="Decorative Camera Image">
+        </div>
+        <div class="center-card">
+          <h3>Our last talk</h3>
+          <div class="card-sub-container">
+            <p>
+              "Hey! 😊 Just wanted to check in and send you a little positivity your way ✨ Life gets busy, but I hope you're taking care of yourself 💛 Keep going, you're doing better than you think 💪 If you ever need someone to talk to, I’m here 🚀💬"
+            </p>
+          </div>
+          <div class="card-sub-container">
+            <p>
+              Hey! 😊 Just wanted to say thank you for the lovely time and your sweet energy 💫 I’ll leave you now so you can enjoy your birthday party to the fullest 🎉🎂 Have the best time ever — you deserve it! 🥳💖 Catch up soon! 🌟     chlo ab kuch shyari ho jaye>>>>>>>>>>>>>>
+
+            </p>
+          </div>
+        </div>
+        <div class="right-vector-space">
+          <img src="https://cdn.pixabay.com/photo/2021/05/11/14/09/child-6246011_640.png" alt="Farewell Vector Graphic">
+        </div>
+      </div>
+    </div>  
+
+  <section id="shayari-section">
+  <div class="container">
+    <!-- Left: Shayari -->
+    <div class="shayari-box">
+      <div class="shayari-card">
+        <div class="emoji-badge">😊</div>
+        <div class="shayari-text" id="shayariText"></div>
+      </div>
+      <div class="buttons">
+        <button onclick="prevShayari()">Previous</button>
+        <button onclick="toggleMusic()" id="musicBtn">
+          🎵
+          <div class="music-indicator"></div>
+        </button>
+        <button onclick="nextShayari()">Next</button>
+      </div>
+    </div>
+
+    <!-- Right: Image -->
+    <div class="image-box">
+      <img id="shayariImage" src="" alt="Shayari Image">
+    </div>
+  </div>
+
+  <!-- Background Music -->
+  <audio id="backgroundMusic" loop>
+    <source src="music/shayri music.mp3" type="audio/mp3" />
+  </audio>
+</section>
+
+
+ <div class="music-container">
+    <div class="background">
+      <span class="shape"></span>
+      <span class="shape"></span>
+      <span class="shape"></span>
+      <span class="shape"></span>
+      <span class="shape"></span>
+      <span class="shape"></span>
+      <span class="shape"></span>
+    </div>
+
+    <h1>lets have some music!</h1>
+
+    <div class="inner">
+      <div class="content">
+        <div class="left">
+          <img src="https://cdn.pixabay.com/photo/2022/05/27/12/32/woman-7225053_640.png" alt="Vector" class="vector" />
+        </div>
+
+        <div class="right">
+          <div class="music-player">
+            <div class="title-bar" id="titleBar">Manav's favourite ~Enigma the child in us</div>
+            <div class="image-box2">
+              <img src="https://cdn.pixabay.com/photo/2022/05/27/12/32/woman-7225053_640.png" alt="Music Cover" id="coverImage">
+            </div>
+            <audio id="audio" src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"></audio>
+            <div class="controls">
+              <div class="progress-bar">
+                <input type="range" id="progress" min="0" max="100" value="0">
+              </div>
+              <div class="button-row">
+                <button class="btn" id="prevBtn"><i class="fas fa-backward"></i></button>
+                <button class="btn" id="playPauseBtn"><i class="fas fa-play"></i></button>
+                <button class="btn" id="nextBtn"><i class="fas fa-forward"></i></button>
+                <button class="btn">Menu</button>
+              </div>
+            </div>
+          </div>  
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+  <div class="ff-big-container">
+  <div class="ff-container">
+    <div class="ff-feedback-card">
+      <h2>oyeee feedback dede plss! 💌</h2>
+
+      <div class="ff-rating" id="emojiRating">
+        <span data-value="1">😡</span>
+        <span data-value="2">😕</span>
+        <span data-value="3">😊</span>
+        <span data-value="4">😍</span>
+        <span data-value="5">🤩</span>
+      </div>
+
+      <textarea id="feedbackText" rows="4" placeholder="Write your feedback here..."></textarea>
+      <br>
+      <button onclick="submitFeedback()">Send ✉️</button>
+    </div>
+
+    <div class="ff-vector">
+      <img src="https://cdn.pixabay.com/photo/2024/02/19/23/23/news-8584328_640.png" alt="Cute Vector">
+    </div>
+  </div>
+
+  <div class="ff-popup" id="popupMessage">
+    <img src="https://cdn-icons-png.flaticon.com/512/3159/3159066.png" alt="Heart" />
+    <h3>hmmmmmmmmm thanks for your feedback chal ab mai chala! 💖</h3>
+  </div>
+  
+
+  <canvas id="confetti-canvas" style="position: fixed; top: 0; left: 0; pointer-events: none; width: 100%; height: 100%; z-index: 1000;"></canvas>
+</div>
+
+  <div class="unique-banner-wrapper" id="uniqueBanner">
+    <canvas class="bg-bubbles-canvas"></canvas>
+    <div class="unique-banner-text">🎉 chalo ab byee (Manav) 🎉</div>
+  </div>
+  </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+
+ <script> alert('⚠️this is a  website mady by manav for a girl birthday❗disclaimer!(there is no such girl in my life , I make this thing for those who have a girl as a friend so you can share this thing to her on her birthday.)   its each and everything is designed by me so if you liked it dont forget to give feedback! 👇');</script>
+ <script src="index.js"></script>
+</body>
+</html>
