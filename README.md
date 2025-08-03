@@ -54,7 +54,7 @@ I'm a passionate front-end developer who loves to build creative and emotional w
 
 ![Website Screenshot](https://cdn.pixabay.com/photo/2022/03/02/02/48/birthday-7042329_640.png)
 
-Live Demo 👉 **[Upload to GitHub Pages to view it live!](https://pages.github.com/)**
+Live Demo 👉 https://manav-0n-site.github.io/birthday-by-manav/
 
 ---
 
