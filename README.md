@@ -1,3 +1,9 @@
+## 📜 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+
+
 # 🎉 Birthday Wish Website by Manav 🎂
 
 > A sweet surprise website for anyone who wants to wish their special girl friend in a unique and unforgettable way 💖 — made with love by **Manav**, a 17-year-old Class 12th pass-out student 👨‍💻💡
